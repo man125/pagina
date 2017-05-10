@@ -1,0 +1,56 @@
+body{
+	padding: 0px;
+	margin: 0px;/*Quitar margen y padding por defecto*/
+}
+
+.quita-float{
+	float: none;
+	text-align: center;
+	margin-top: 50px;
+
+}
+img{
+	max-width: 100%;/*maximo tamaño de la imagen*/
+	
+}
+h1{
+	font-family: 'Pacifico', cursive;/*tipo letra*/
+	font-size: 4em;/*tamaño */
+	color:	#00887C;/*color texto*/
+}
+h3{
+	font-family: 'Pacifico',cursive;
+	font-size: 2.5em;
+}
+.espacio{
+	margin-right: 1em;/*em-->medida relativa respecto a otra
+	de html*/
+}
+.animacion{
+	animation-delay: 1.5s;
+}
+
+.animacion2{
+	animation-delay: 0.5s;
+}
+/*########{ MENU }###########*/
+
+.lista{
+	list-style-type: none;
+	float: none;
+	display: inline-block;
+}
+.nav-div{
+	padding: 10px 5px;
+	background-color: #FF8D00;
+}
+li a{
+	font-family: 'Pacifico', cursive;
+}
+
+@media only screen and (max-width: 600px) {/*responsive de acuerdo tam del layout*/
+    /* For mobile phones: */
+    img{
+        width: 150px;
+    }
+}
